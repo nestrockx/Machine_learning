@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fc5716f6-97a9-4cb0-9635-98aff66e9aec</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lalka_Chlopi_Machine_Learning.py</StartupFile>
+    <StartupFile>k_means_algorithm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Lalka_Chlopi_Machine_Learning.py" />
+    <Compile Include="k_means_algorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lalka_chlopi_machine_learning.py" />
     <Compile Include="random_data_classification.py">
       <SubType>Code</SubType>
     </Compile>

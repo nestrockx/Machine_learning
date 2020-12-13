@@ -85,15 +85,11 @@ def classifyData(clf, X_train, X_test, y_train, y_test):
 
 
 dfSentences = pd.read_csv('LalkaChlopiZdania.csv')
-#print(dfSentences.head())
-
 dfBooks = pd.read_csv('KsiazkaLalkaChlopi.csv')
-#print(dfBooks.head())
 
 dfSentences = dfSentences['Zdanie'].astype(str).values.tolist()
 dfBooks = dfBooks['Ksiazka'].astype(str).values.tolist()
 
-#print(len(dfSentences))
 dfSentences = preprocess(dfSentences)
 #print(dfSentences)
 
